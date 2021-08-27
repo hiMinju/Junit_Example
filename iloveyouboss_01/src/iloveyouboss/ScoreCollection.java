@@ -18,7 +18,7 @@ public class ScoreCollection {
    }
    
    public int arithmeticMean() {
-      int total = scores.stream().mapToInt(Scoreable::getScore).sum();
-      return total / scores.size();
+	   int total = scores.stream().mapToInt(Scoreable::getScore).sum();
+	   return total/scores.size();
    }
 }
